@@ -1,0 +1,6 @@
+{
+  "name": "audicalservices/api",
+  "require": {
+    "stripe/stripe-php": "^12.0"
+  }
+}
