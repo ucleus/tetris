@@ -34,6 +34,7 @@ export default function NavBar() {
         <nav className="flex items-center gap-6 text-sm font-semibold">
           <NavLink to="/" className={({ isActive }) => isActive ? 'text-primary' : 'text-gray-700 dark:text-gray-200'}>Marketplace</NavLink>
           <NavLink to="/admin" className={({ isActive }) => isActive ? 'text-primary' : 'text-gray-700 dark:text-gray-200'}>Admin</NavLink>
+          <NavLink to="/dashboard" className={({ isActive }) => isActive ? 'text-primary' : 'text-gray-700 dark:text-gray-200'}>Dashboard</NavLink>
           <NavLink to="/cart" className={({ isActive }) => isActive ? 'text-primary' : 'text-gray-700 dark:text-gray-200'}>
             <div className="relative inline-flex items-center gap-1">
               <ShoppingCartIcon className="h-5 w-5" />

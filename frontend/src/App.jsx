@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import Admin from './pages/Admin';
+import Dashboard from './pages/Dashboard';
 import { CartProvider } from './context/CartContext';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </CartProvider>
