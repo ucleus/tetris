@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.22",
+    "@headlessui/react": "^1.7.19",
     "@heroicons/react": "^2.1.5",
     "axios": "^1.6.8",
     "react": "^18.2.0",
